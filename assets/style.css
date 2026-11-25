@@ -1,9 +1,10 @@
 :root{
-  --bg:#fbfaf7; --surface:#ffffff; --ink:#14161a; --muted:#5b6170; --line:#e7e4dc;
-  --brand:#2b4bf2; --brand-ink:#ffffff; --accent:#ff7a45; --soft:#eef1ff;
-  --radius:18px; --max:1120px;
+  --bg:#fafaf9; --surface:#ffffff; --ink:#111827; --muted:#4b5563; --line:#e5e7eb;
+  --brand:#ea580c; --brand-ink:#ffffff; --accent:#7c3aed; --soft:#fff7ed;
+  --grad:linear-gradient(135deg,#ff6b00 0%,#ea580c 100%); --stripe:linear-gradient(90deg,#fbbf24 0%,#f59e0b 45%,#ea580c 100%);
+  --radius:16px; --max:1120px;
   --font:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  --display:"Fraunces",Georgia,serif;
+  --display:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -14,24 +15,24 @@ a{color:inherit}
 .skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:#fff;padding:8px 12px;z-index:99}
 
 /* Header */
-.site-header{position:sticky;top:0;z-index:20;background:rgba(251,250,247,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.site-header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
 .logo{display:flex;align-items:center;gap:10px;font-weight:700;text-decoration:none;letter-spacing:-.01em}
-.logo-mark{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--brand),#7b5cff);display:grid;place-items:center;color:#fff;font-size:15px}
+.logo-mark{width:30px;height:30px;border-radius:9px;background:var(--grad);display:grid;place-items:center;color:#fff;font-size:15px}
 .nav-links{display:flex;gap:26px;list-style:none;margin:0;padding:0}
 .nav-links a{text-decoration:none;color:var(--muted);font-size:15px}
 .nav-links a:hover{color:var(--ink)}
 .btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:12px 20px;font-weight:600;text-decoration:none;border:1px solid transparent;cursor:pointer;font:600 15px/1 var(--font);transition:transform .15s,background .15s}
 .btn:hover{transform:translateY(-1px)}
-.btn-primary{background:var(--ink);color:#fff}
+.btn-primary{background:var(--grad);color:#fff;box-shadow:0 8px 20px -10px rgba(234,88,12,.7)}
 .btn-ghost{border-color:var(--line);background:var(--surface)}
 .menu-toggle{display:none;background:none;border:1px solid var(--line);border-radius:10px;padding:8px 10px;font:inherit}
 
 /* Hero */
 .hero{padding:88px 0 64px}
-.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--brand);background:var(--soft);padding:6px 12px;border-radius:999px}
-.hero h1{font-family:var(--display);font-weight:600;font-size:clamp(38px,6vw,68px);line-height:1.04;letter-spacing:-.02em;margin:22px 0 20px;max-width:15ch}
-.hero h1 em{font-style:italic;color:var(--brand)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:800;color:#b45309;background:linear-gradient(135deg,#fffbeb,#fef3c7);border:1.5px solid #fcd34d;padding:6px 12px;border-radius:999px}
+.hero h1{font-family:var(--display);font-weight:800;font-size:clamp(38px,6vw,68px);line-height:1.04;letter-spacing:-.02em;margin:22px 0 20px;max-width:15ch}
+.hero h1 em{font-style:normal;background:var(--stripe);-webkit-background-clip:text;background-clip:text;color:transparent}
 .lead{font-size:clamp(17px,2vw,20px);color:var(--muted);max-width:58ch;margin:0 0 30px}
 .cta-row{display:flex;flex-wrap:wrap;gap:12px}
 .hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:48px;align-items:end}
@@ -45,8 +46,8 @@ a{color:inherit}
 /* Sections */
 section{padding:72px 0}
 .section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:36px;flex-wrap:wrap}
-.kicker{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
-h2.title{font-family:var(--display);font-weight:600;font-size:clamp(28px,4vw,42px);line-height:1.1;letter-spacing:-.015em;margin:8px 0 0;max-width:22ch}
+.kicker{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--brand)}
+h2.title{font-family:var(--display);font-weight:800;font-size:clamp(28px,4vw,42px);line-height:1.1;letter-spacing:-.015em;margin:8px 0 0;max-width:22ch}
 .section-head p{color:var(--muted);max-width:44ch;margin:0}
 
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
@@ -60,10 +61,10 @@ h2.title{font-family:var(--display);font-weight:600;font-size:clamp(28px,4vw,42p
 
 .band{background:var(--ink);color:#fff;border-radius:28px;padding:56px 40px}
 .band .title{color:#fff}
-.band .kicker{color:#9db0ff}
+.band .kicker{color:#fbbf24}
 .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:36px;counter-reset:s}
 .step{border-top:1px solid rgba(255,255,255,.2);padding-top:18px}
-.step::before{counter-increment:s;content:"0" counter(s);font-family:var(--display);font-size:28px;color:#9db0ff}
+.step::before{counter-increment:s;content:"0" counter(s);font-family:var(--display);font-size:28px;color:#fbbf24}
 .step h3{margin:8px 0 6px;font-size:18px}
 .step p{margin:0;color:#c9ccd6;font-size:15px}
 
@@ -114,7 +115,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--brand);outline-o
 .article{max-width:740px;margin:0 auto;padding:56px 20px 24px}
 .crumbs{font-size:14px;color:var(--muted)}
 .crumbs a{text-decoration:none}
-.article h1{font-family:var(--display);font-weight:600;font-size:clamp(32px,5vw,50px);line-height:1.08;letter-spacing:-.02em;margin:18px 0 14px}
+.article h1{font-family:var(--display);font-weight:800;font-size:clamp(32px,5vw,50px);line-height:1.08;letter-spacing:-.02em;margin:18px 0 14px}
 .article .byline{color:var(--muted);font-size:14px;margin-bottom:30px}
 .article h2{font-size:26px;letter-spacing:-.01em;margin:44px 0 12px}
 .article p,.article li{font-size:18px;line-height:1.7}
@@ -149,3 +150,11 @@ th{background:var(--ink);color:#fff;font-weight:600}
   .steps{grid-template-columns:1fr}
   .foot{grid-template-columns:1fr}
 }
+
+/* Charte Limova : liseré dégradé, bouton violet d'appel à l'action */
+.site-header::before{content:"";display:block;height:4px;background:var(--stripe)}
+.cta-box{background:linear-gradient(135deg,#faf5ff 0%,#ede9fe 100%);color:var(--ink);border:2px solid #8b5cf6}
+.cta-box h2{color:#5b21b6}
+.cta-box .btn{background:linear-gradient(135deg,#7c3aed 0%,#6d28d9 100%);color:#fff}
+.case .big{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.cta-box p{color:#4c1d95}
