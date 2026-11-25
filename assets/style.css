@@ -1,10 +1,12 @@
 :root{
-  --bg:#fafaf9; --surface:#ffffff; --ink:#111827; --muted:#4b5563; --line:#e5e7eb;
-  --brand:#ea580c; --brand-ink:#ffffff; --accent:#7c3aed; --soft:#fff7ed;
-  --grad:linear-gradient(135deg,#ff6b00 0%,#ea580c 100%); --stripe:linear-gradient(90deg,#fbbf24 0%,#f59e0b 45%,#ea580c 100%);
-  --radius:16px; --max:1120px;
-  --font:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  --display:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --bg:#070401; --surface:rgba(255,255,255,.04); --ink:#ffffff; --muted:rgba(255,255,255,.73); --line:rgba(255,255,255,.08);
+  --brand:#f17324; --brand-ink:#ffffff; --accent:#dc8e21; --soft:rgba(220,142,33,.14);
+  --grad:linear-gradient(136deg,#f17324 -1.65%,#dc8e21 100.28%);
+  --grad-btn:linear-gradient(308deg,rgba(255,255,255,0) 59.89%,rgba(255,255,255,.5) 100%),linear-gradient(136deg,#f17324 -1.65%,#dc8e21 100.28%);
+  --glass:linear-gradient(138deg,rgba(220,142,33,0) -2.68%,rgba(220,142,33,.32) 103.93%),rgba(255,255,255,.06);
+  --radius:20px; --max:1120px;
+  --font:"Geist",Arial,sans-serif;
+  --display:"Instrument Sans",Arial,sans-serif;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -31,7 +33,7 @@ a{color:inherit}
 /* Hero */
 .hero{padding:88px 0 64px}
 .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:800;color:#b45309;background:linear-gradient(135deg,#fffbeb,#fef3c7);border:1.5px solid #fcd34d;padding:6px 12px;border-radius:999px}
-.hero h1{font-family:var(--display);font-weight:800;font-size:clamp(38px,6vw,68px);line-height:1.04;letter-spacing:-.02em;margin:22px 0 20px;max-width:15ch}
+.hero h1{font-family:var(--display);font-weight:600;font-size:clamp(38px,6vw,68px);line-height:1.04;letter-spacing:-.02em;margin:22px 0 20px;max-width:15ch}
 .hero h1 em{font-style:normal;background:var(--stripe);-webkit-background-clip:text;background-clip:text;color:transparent}
 .lead{font-size:clamp(17px,2vw,20px);color:var(--muted);max-width:58ch;margin:0 0 30px}
 .cta-row{display:flex;flex-wrap:wrap;gap:12px}
@@ -47,7 +49,7 @@ a{color:inherit}
 section{padding:72px 0}
 .section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:36px;flex-wrap:wrap}
 .kicker{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--brand)}
-h2.title{font-family:var(--display);font-weight:800;font-size:clamp(28px,4vw,42px);line-height:1.1;letter-spacing:-.015em;margin:8px 0 0;max-width:22ch}
+h2.title{font-family:var(--display);font-weight:600;font-size:clamp(28px,4vw,42px);line-height:1.1;letter-spacing:-.015em;margin:8px 0 0;max-width:22ch}
 .section-head p{color:var(--muted);max-width:44ch;margin:0}
 
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
@@ -115,7 +117,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--brand);outline-o
 .article{max-width:740px;margin:0 auto;padding:56px 20px 24px}
 .crumbs{font-size:14px;color:var(--muted)}
 .crumbs a{text-decoration:none}
-.article h1{font-family:var(--display);font-weight:800;font-size:clamp(32px,5vw,50px);line-height:1.08;letter-spacing:-.02em;margin:18px 0 14px}
+.article h1{font-family:var(--display);font-weight:600;font-size:clamp(32px,5vw,50px);line-height:1.08;letter-spacing:-.02em;margin:18px 0 14px}
 .article .byline{color:var(--muted);font-size:14px;margin-bottom:30px}
 .article h2{font-size:26px;letter-spacing:-.01em;margin:44px 0 12px}
 .article p,.article li{font-size:18px;line-height:1.7}
@@ -151,10 +153,30 @@ th{background:var(--ink);color:#fff;font-weight:600}
   .foot{grid-template-columns:1fr}
 }
 
-/* Charte Limova : liseré dégradé, bouton violet d'appel à l'action */
-.site-header::before{content:"";display:block;height:4px;background:var(--stripe)}
-.cta-box{background:linear-gradient(135deg,#faf5ff 0%,#ede9fe 100%);color:var(--ink);border:2px solid #8b5cf6}
-.cta-box h2{color:#5b21b6}
-.cta-box .btn{background:linear-gradient(135deg,#7c3aed 0%,#6d28d9 100%);color:#fff}
+
+/* Charte limova.ai (relevée le 25/11/2026) : fond sombre, dégradé orange, verre */
+.skip:focus{color:#070401}
+.site-header{background:rgba(7,4,1,.8)}
+.site-header::before{content:"";display:block;height:4px;background:var(--grad)}
+.btn-primary{background:var(--grad-btn);color:#fff;box-shadow:none}
+.btn-ghost{background:rgba(255,255,255,.06);border-color:var(--line);color:#fff}
+.menu-toggle{color:#fff}
+.eyebrow{color:#fff;background:rgba(255,255,255,.06);border:1px solid var(--line);font-weight:500}
+.hero{background:radial-gradient(60% 50% at 70% 10%,rgba(241,115,36,.18),transparent 70%)}
+.hero h1 em{font-style:normal;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-card{background:var(--glass);box-shadow:none}
+.flow-step{background:rgba(255,255,255,.05)}
+.flow-step.done b{background:rgba(34,197,94,.15);color:#22c55e}
+.kicker{color:var(--accent)}
+.band{background:var(--glass);border:1px solid var(--line)}
+.band .kicker,.step::before{color:var(--accent)}
+.step{border-top-color:var(--line)}
+.step p{color:var(--muted)}
 .case .big{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
-.cta-box p{color:#4c1d95}
+input,select,textarea{background:rgba(255,255,255,.04)}
+select option{background:#070401}
+.form-msg{background:rgba(34,197,94,.15);color:#22c55e}
+th{background:rgba(255,255,255,.08);color:#fff}
+.cta-box{background:var(--glass);border:1px solid var(--line)}
+.cta-box p{color:var(--muted)}
+.cta-box .btn{background:var(--grad-btn);color:#fff}
