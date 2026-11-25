@@ -1,0 +1,152 @@
+Crée une routine de publication Instagram sur le compte @limova.studio.demo : un post par jour à 12h30 (heure de Paris), du jeudi 26 novembre au mercredi 9 décembre 2026, soit 14 publications.
+Pour chaque jour, publie l'image jointe correspondante (nom de fichier indiqué), telle quelle, sans la modifier ni en générer une autre, avec exactement la légende indiquée (sans les lignes « === »). Un post simple par jour, jamais de carrousel.
+J'autorise explicitement la publication automatique à chaque échéance, sans me redemander mon accord. Si une publication échoue, préviens-moi dans cette conversation.
+
+=== jeudi 26/11 à 12h30 : cal-2026-11-26.jpg ===
+« Faut-il changer nos outils actuels ? »
+
+C'est souvent la première question. La réponse est presque toujours non.
+
+On part de ce que vous utilisez déjà (CRM, facturation, messagerie) et on les fait travailler ensemble. Moins de changement pour l'équipe, résultats plus rapides.
+
+Quels outils utilisez-vous au quotidien ?
+
+#StudioDemo #Automatisation #PME #Productivité #OutilsNumériques
+
+=== vendredi 27/11 à 12h30 : cal-2026-11-27.jpg ===
+30 minutes, pas plus.
+
+Pendant le diagnostic, on regarde quatre choses : vos tâches répétitives, vos outils actuels, les endroits où l'information se perd, et le premier flux à mettre en place.
+
+Vous repartez avec une liste claire, même si on ne travaille pas ensemble.
+
+Le diagnostic est offert. Écrivez-nous en message privé.
+
+#StudioDemo #Automatisation #Méthode #PME #Diagnostic
+
+=== samedi 28/11 à 12h30 : cal-2026-11-28.jpg ===
+Automatiser, ce n'est pas remplacer.
+
+Une bonne automatisation ne prend aucune décision à votre place. Elle s'occupe de ce qui n'a pas besoin de vous : ressaisir, recopier, prévenir, relancer.
+
+Le temps gagné revient à ce qui compte : vos clients.
+
+#StudioDemo #Automatisation #PME #GainDeTemps #Entrepreneurs
+
+=== dimanche 29/11 à 12h30 : cal-2026-11-29.jpg ===
+Comment savoir si une tâche mérite d'être automatisée ?
+
+1. Elle revient chaque semaine
+2. Elle suit toujours les mêmes étapes
+3. Elle consiste à recopier une information
+4. Un oubli coûte cher
+5. Personne n'aime la faire
+
+Si vous cochez trois cases, c'est un bon candidat.
+
+Laquelle vous vient en tête en premier ?
+
+#StudioDemo #Automatisation #Productivité #PME #Workflow
+
+=== lundi 30/11 à 12h30 : cal-2026-11-30.jpg ===
+Combien de devis attendent une relance en ce moment ?
+
+Un flux simple :
+1. Le devis part
+2. Pas de signature à J+3 : relance personnalisée automatique
+3. Toujours rien à J+7 : le commercial est alerté
+
+Le commercial garde la main sur l'échange. Le flux s'occupe de ne rien oublier.
+
+#StudioDemo #Automatisation #Vente #PME #CRM
+
+=== mardi 1/12 à 12h30 : cal-2026-12-01.jpg ===
+Le passage : la brique de base du GEO.
+
+C'est un paragraphe qui répond seul à une question, sans avoir besoin du reste de la page. C'est ce qu'un moteur de réponse IA peut reprendre tel quel.
+
+Astuce : relisez vos pages et demandez-vous si chaque paragraphe se comprend seul.
+
+#StudioDemo #GEO #SEO #ContenuWeb #VisibilitéIA
+
+=== mercredi 2/12 à 12h30 : cal-2026-12-02.jpg ===
+Une demande arrive par le formulaire du site. Et ensuite ?
+
+Avant : on la lit quand on peut, on la recopie, on répond à la main, et parfois on oublie de relancer.
+Après : la fiche CRM est créée, le prospect reçoit un accusé de réception, le commercial est prévenu et la relance est programmée.
+
+#StudioDemo #Automatisation #Prospection #PME #CRM
+
+=== jeudi 3/12 à 12h30 : cal-2026-12-03.jpg ===
+« Où sont hébergées nos données ? »
+
+Bonne question, et elle mérite une réponse avant le début du projet, pas après.
+
+Pour chaque outil utilisé, on vous indique où sont stockées les données et qui y a accès. Quand on a le choix, on privilégie un hébergement européen.
+
+#StudioDemo #RGPD #Automatisation #PME #Données
+
+=== vendredi 4/12 à 12h30 : cal-2026-12-04.jpg ===
+Avant de livrer un flux, on le teste. Vraiment.
+
+01 Avec des données fictives, jamais vos vrais clients
+02 En provoquant des erreurs exprès
+03 En vérifiant que l'alerte arrive bien quand ça bloque
+04 En validant le tout avec vous
+
+Une automatisation qui s'arrête sans prévenir, c'est pire que pas d'automatisation.
+
+#StudioDemo #Automatisation #Qualité #PME #Coulisses
+
+=== samedi 5/12 à 12h30 : cal-2026-12-05.jpg ===
+Un chiffre sans source ne convainc personne.
+
+Ni vos prospects, qui ont appris à se méfier. Ni les moteurs IA, qui privilégient les contenus vérifiables.
+
+Notre règle : une donnée, une source. Et si on n'a pas la source, on n'écrit pas le chiffre.
+
+#StudioDemo #GEO #ContenuWeb #MarketingDigital #PME
+
+=== dimanche 6/12 à 12h30 : cal-2026-12-06.jpg ===
+Votre FAQ est-elle lisible par les IA ? 4 vérifications :
+
+1. Une seule question par titre
+2. La réponse dès la première phrase
+3. Un balisage FAQ en données structurées (Schema.org)
+4. Une date de mise à jour visible
+
+Quinze minutes pour vérifier, et votre FAQ devient plus facile à citer.
+
+#StudioDemo #GEO #SEO #FAQ #VisibilitéIA
+
+=== lundi 7/12 à 12h30 : cal-2026-12-07.jpg ===
+Le lundi matin, vos chiffres devraient venir à vous.
+
+1. Les chiffres de la semaine sont collectés dans vos outils
+2. Un résumé clair est mis en page
+3. Il arrive dans votre boîte mail à 8 h
+
+Vous commencez la semaine avec une vue d'ensemble, sans ouvrir cinq onglets.
+
+#StudioDemo #Automatisation #Reporting #PME #Productivité
+
+=== mardi 8/12 à 12h30 : cal-2026-12-08.jpg ===
+Données structurées : de quoi parle-t-on ?
+
+C'est un balisage ajouté au code de vos pages. Vos visiteurs ne le voient pas, mais il dit clairement aux moteurs de recherche et aux IA ce que contient la page : une FAQ, une adresse, un article, un produit.
+
+Le vocabulaire de référence s'appelle Schema.org.
+
+#StudioDemo #SEO #GEO #DonnéesStructurées #ContenuWeb
+
+=== mercredi 9/12 à 12h30 : cal-2026-12-09.jpg ===
+Publier sur trois réseaux, c'est souvent faire le travail trois fois.
+
+Avant : adapter le texte, recadrer les visuels, publier un par un, et oublier un réseau.
+Après : un contenu source, des déclinaisons préparées, une seule programmation, et vous validez en un clic.
+
+Vous gardez la main sur le message. Le flux fait le reste.
+
+#StudioDemo #ContenuWeb #RéseauxSociaux #Automatisation #PME
+
+Quand la routine est créée, récapitule-moi les 14 dates, heures et fichiers programmés, et dis-moi où je peux voir ou modifier cette routine.
