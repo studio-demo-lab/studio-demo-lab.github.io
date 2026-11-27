@@ -1,3 +1,9 @@
+/* Polices hébergées localement (SIL Open Font License 1.1, voir assets/fonts/LICENSE-*.txt) : aucune requête vers Google Fonts. */
+@font-face{font-family:"Geist";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/geist-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Geist";font-style:normal;font-weight:500;font-display:swap;src:url(fonts/geist-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Geist";font-style:normal;font-weight:600;font-display:swap;src:url(fonts/geist-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"Instrument Sans";font-style:normal;font-weight:500;font-display:swap;src:url(fonts/instrument-sans-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Instrument Sans";font-style:normal;font-weight:600;font-display:swap;src:url(fonts/instrument-sans-latin-600-normal.woff2) format("woff2")}
 :root{
   --bg:#070401; --surface:rgba(255,255,255,.04); --ink:#ffffff; --muted:rgba(255,255,255,.73); --line:rgba(255,255,255,.08);
   --brand:#f17324; --brand-ink:#ffffff; --accent:#dc8e21; --soft:rgba(220,142,33,.14);
